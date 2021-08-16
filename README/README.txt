@@ -20,3 +20,5 @@ Preconditions for using the system:
 
 Further details: 
 (*) The password for MySQL should be Aa123456 (or else, changed manually in the class "JDBCSingleton").
+(*) Offline tests are to be saved in "CEMS_server" folder 
+    (when a user downloads an offline exam, it'll be saved in "CEMS_client" folder).
