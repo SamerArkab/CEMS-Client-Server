@@ -11,19 +11,19 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.paint.Color?>
 
-<SplitPane dividerPositions="0.5, 0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="430.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exam.TeacherBoundary">
+<SplitPane dividerPositions="0.5, 0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="430.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exam.TeacherBoundary">
   <items>
     <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="530.0" style="-fx-background-color: white;">
          <children>
             <Label layoutX="197.0" layoutY="-1.0" prefHeight="72.0" prefWidth="136.0" style="-fx-font-family: Dubai; -fx-font-size: 40; -fx-text-fill: purple;" text="Teacher" />
             <ImageView fitHeight="77.0" fitWidth="100.0" layoutX="2.0" layoutY="3.0">
                <image>
-                   <Image url="@../logo.png" />
+                   <Image url="@../../images/logo.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="47.0" fitWidth="54.0" layoutX="472.0" layoutY="14.0">
                <image>
-                   <Image url="@../logoutBtn.png" />
+                   <Image url="@../../images/logoutBtn.png" />
                </image>
                <cursor>
                   <Cursor fx:constant="HAND" />
@@ -44,7 +44,7 @@
                      <effect>
                         <InnerShadow radius="22.25" width="70.0">
                            <color>
-                              <Color blue="0.8784313797950745" green="0.34117648005485535" red="0.572549045085907" />
+                              <Color red="0.572549045085907" green="0.34117648005485535" blue="0.8784313797950745" />
                            </color>
                         </InnerShadow>
                      </effect>
@@ -55,7 +55,7 @@
                      <effect>
                         <InnerShadow radius="22.25" width="70.0">
                            <color>
-                              <Color blue="0.8784313797950745" green="0.34117648005485535" red="0.572549045085907" />
+                              <Color red="0.572549045085907" green="0.34117648005485535" blue="0.8784313797950745" />
                            </color>
                         </InnerShadow>
                      </effect>
@@ -66,7 +66,7 @@
                      <effect>
                         <InnerShadow radius="22.25" width="70.0">
                            <color>
-                              <Color blue="0.8784313797950745" green="0.34117648005485535" red="0.572549045085907" />
+                              <Color red="0.572549045085907" green="0.34117648005485535" blue="0.8784313797950745" />
                            </color>
                         </InnerShadow>
                      </effect>

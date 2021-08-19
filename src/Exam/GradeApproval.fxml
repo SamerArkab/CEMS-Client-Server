@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.paint.Color?>
 
-<SplitPane dividerPositions="0.5, 0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="430.0" prefWidth="771.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exam.GradeApprovalBoundary">
+<SplitPane dividerPositions="0.5, 0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="430.0" prefWidth="771.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exam.GradeApprovalBoundary">
   <items>
     <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="771.0" style="-fx-background-color: white;">
          <children>
@@ -22,12 +22,12 @@
             <Label layoutX="256.0" layoutY="-1.0" prefHeight="72.0" prefWidth="259.0" style="-fx-font-family: Dubai; -fx-font-size: 40; -fx-text-fill: purple;" text="Grade Approval" />
             <ImageView fitHeight="62.0" fitWidth="93.0" layoutX="14.0" layoutY="5.0">
                <image>
-                   <Image url="@../logo.png" />
+                   <Image url="@../../images/logo.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="45.0" fitWidth="49.0" layoutX="708.0" layoutY="13.0">
                <image>
-                   <Image url="@../logoutBtn.png" />
+                   <Image url="@../../images/logoutBtn.png" />
                </image>
                <cursor>
                   <Cursor fx:constant="HAND" />
@@ -48,7 +48,7 @@
                      <effect>
                         <InnerShadow height="50.0" radius="12.0" width="0.0">
                            <color>
-                              <Color blue="0.8784313797950745" green="0.34117648005485535" red="0.572549045085907" />
+                              <Color red="0.572549045085907" green="0.34117648005485535" blue="0.8784313797950745" />
                            </color>
                         </InnerShadow>
                      </effect>
@@ -60,7 +60,7 @@
                      <effect>
                         <InnerShadow height="50.0" radius="12.0" width="0.0">
                            <color>
-                              <Color blue="0.8784313797950745" green="0.34117648005485535" red="0.572549045085907" />
+                              <Color red="0.572549045085907" green="0.34117648005485535" blue="0.8784313797950745" />
                            </color>
                         </InnerShadow>
                      </effect>
@@ -86,7 +86,7 @@
                <children>
                   <ImageView fitHeight="47.0" fitWidth="100.0" layoutX="14.0" layoutY="12.0">
                      <image>
-                         <Image url="@../backBtn.png" />
+                         <Image url="@../../images/backBtn.png" />
                      </image>
                      <cursor>
                         <Cursor fx:constant="HAND" />
@@ -94,7 +94,7 @@
                   </ImageView>
                   <ImageView fitHeight="47.0" fitWidth="100.0" layoutX="657.0" layoutY="12.0">
                      <image>
-                         <Image url="@../nextBtn.png" />
+                         <Image url="@../../images/nextBtn.png" />
                      </image>
                      <cursor>
                         <Cursor fx:constant="HAND" />

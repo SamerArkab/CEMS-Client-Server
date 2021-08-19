@@ -10,19 +10,19 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<SplitPane dividerPositions="0.16442953020134227, 0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="670.0" prefWidth="900.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exam.ViewExamCopyBoundary">
+<SplitPane dividerPositions="0.16442953020134227, 0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="670.0" prefWidth="900.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exam.ViewExamCopyBoundary">
   <items>
     <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="903.0">
          <children>
             <Label layoutX="361.0" layoutY="8.0" prefHeight="72.0" prefWidth="182.0" style="-fx-font-family: Dubai; -fx-font-size: 40; -fx-text-fill: purple;" text="View Exam" />
             <ImageView fitHeight="94.0" fitWidth="153.0" layoutY="-3.0">
                <image>
-                   <Image url="@../logo.png" />
+                   <Image url="@../../images/logo.png" />
                </image>
             </ImageView>
             <ImageView fx:id="loginOnlBtn" fitHeight="60.0" fitWidth="65.0" layoutX="841.0" layoutY="13.0">
                <image>
-                   <Image url="@../logoutBtn.png" />
+                   <Image url="@../../images/logoutBtn.png" />
                </image>
             </ImageView>
             <Button fx:id="logoutOnlineExamBtn" layoutX="848.0" layoutY="14.0" mnemonicParsing="false" onAction="#logout" prefHeight="45.0" prefWidth="49.0" style="-fx-background-color: transparent;">
@@ -56,7 +56,7 @@
                <children>
                   <ImageView fitHeight="54.0" fitWidth="139.0" layoutX="6.0" layoutY="12.0">
                      <image>
-                         <Image url="@../backBtn.png" />
+                         <Image url="@../../images/backBtn.png" />
                      </image>
                   </ImageView>
                   <Button fx:id="backBtn" layoutX="8.0" layoutY="12.0" mnemonicParsing="false" onAction="#back" prefHeight="54.0" prefWidth="135.0" style="-fx-background-color: transparent;">

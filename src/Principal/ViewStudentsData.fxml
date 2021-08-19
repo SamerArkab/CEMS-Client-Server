@@ -10,19 +10,19 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<SplitPane dividerPositions="0.16442953020134227, 0.5620805369127516" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="670.0" prefWidth="948.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Principal.StudentData">
+<SplitPane dividerPositions="0.16442953020134227, 0.5620805369127516" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="670.0" prefWidth="948.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Principal.StudentData">
   <items>
     <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="953.0">
          <children>
             <Label layoutX="312.0" layoutY="8.0" prefHeight="72.0" prefWidth="329.0" style="-fx-font-family: Dubai; -fx-font-size: 40; -fx-text-fill: purple;" text="View Students Data" />
             <ImageView fitHeight="57.0" fitWidth="72.0" layoutX="868.0" layoutY="15.0">
                <image>
-                   <Image url="@../logoutBtn.png" />
+                   <Image url="@../../images/logoutBtn.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="98.0" fitWidth="130.0" layoutX="1.0" layoutY="-6.0">
                <image>
-                   <Image url="@../logo.png" />
+                   <Image url="@../../images/logo.png" />
                </image>
             </ImageView>
             <Button fx:id="logoutViewStdDataCopyBtn" layoutX="886.0" layoutY="19.0" mnemonicParsing="false" onAction="#logout" prefHeight="43.0" prefWidth="54.0" style="-fx-background-color: transparency;">
@@ -53,7 +53,7 @@
                <children>
                   <ImageView fitHeight="54.0" fitWidth="119.0" layoutX="8.0" layoutY="13.0">
                      <image>
-                         <Image url="@../backBtn.png" />
+                         <Image url="@../../images/backBtn.png" />
                      </image>
                   </ImageView>
                   <Button fx:id="backViewStdDataBtn" layoutX="9.0" layoutY="13.0" mnemonicParsing="false" onAction="#back" prefHeight="54.0" prefWidth="119.0" style="-fx-background-color: transparency;">

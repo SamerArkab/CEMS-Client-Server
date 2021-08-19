@@ -12,19 +12,19 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.paint.Color?>
 
-<SplitPane dividerPositions="0.5, 0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="430.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Principal.ReportsBoundary">
+<SplitPane dividerPositions="0.5, 0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="430.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Principal.ReportsBoundary">
   <items>
     <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="530.0" style="-fx-background-color: white;">
          <children>
             <Label layoutX="197.0" prefHeight="72.0" prefWidth="163.0" style="-fx-font-family: Dubai; -fx-font-size: 40; -fx-text-fill: purple;" text="Reports" />
             <ImageView fitHeight="77.0" fitWidth="96.0" layoutX="-1.0" layoutY="-1.0">
                <image>
-                   <Image url="@../logo.png" />
+                   <Image url="@../../images/logo.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="47.0" fitWidth="57.0" layoutX="467.0" layoutY="15.0">
                <image>
-                   <Image url="@../logoutBtn.png" />
+                   <Image url="@../../images/logoutBtn.png" />
                </image>
                <cursor>
                   <Cursor fx:constant="HAND" />
@@ -52,7 +52,7 @@
                      <effect>
                         <InnerShadow height="50.0" radius="12.0" width="0.0">
                            <color>
-                              <Color blue="0.8784313797950745" green="0.34117648005485535" red="0.572549045085907" />
+                              <Color red="0.572549045085907" green="0.34117648005485535" blue="0.8784313797950745" />
                            </color>
                         </InnerShadow>
                      </effect></ComboBox>
@@ -60,7 +60,7 @@
                      <effect>
                         <InnerShadow height="50.0" radius="12.0" width="0.0">
                            <color>
-                              <Color blue="0.8784313797950745" green="0.34117648005485535" red="0.572549045085907" />
+                              <Color red="0.572549045085907" green="0.34117648005485535" blue="0.8784313797950745" />
                            </color>
                         </InnerShadow>
                      </effect></ComboBox>
@@ -68,13 +68,13 @@
                      <effect>
                         <InnerShadow height="50.0" radius="12.0" width="0.0">
                            <color>
-                              <Color blue="0.8784313797950745" green="0.34117648005485535" red="0.572549045085907" />
+                              <Color red="0.572549045085907" green="0.34117648005485535" blue="0.8784313797950745" />
                            </color>
                         </InnerShadow>
                      </effect></ComboBox>
                   <ImageView fitHeight="38.0" fitWidth="41.0" layoutX="316.0" layoutY="50.0">
                      <image>
-                         <Image url="@../reportIconBtn.png" />
+                         <Image url="@../../images/reportIconBtn.png" />
                      </image>
                   </ImageView>
                   <Button fx:id="cours" layoutX="316.0" layoutY="49.0" mnemonicParsing="false" onAction="#getCoursereport" prefHeight="38.0" prefWidth="41.0" style="-fx-background-color: transparent; -fx-border-color: transparent;">
@@ -83,7 +83,7 @@
                      </cursor></Button>
                   <ImageView fitHeight="38.0" fitWidth="41.0" layoutX="316.0" layoutY="127.0">
                      <image>
-                         <Image url="@../reportIconBtn.png" />
+                         <Image url="@../../images/reportIconBtn.png" />
                      </image>
                   </ImageView>
                   <Button fx:id="Teacher" layoutX="316.0" layoutY="126.0" mnemonicParsing="false" onAction="#getTeacherreport" prefHeight="38.0" prefWidth="41.0" style="-fx-background-color: transparent;">
@@ -92,7 +92,7 @@
                      </cursor></Button>
                   <ImageView fitHeight="38.0" fitWidth="41.0" layoutX="316.0" layoutY="206.0">
                      <image>
-                         <Image url="@../reportIconBtn.png" />
+                         <Image url="@../../images/reportIconBtn.png" />
                      </image>
                   </ImageView>
                   <Button fx:id="Student" layoutX="316.0" layoutY="206.0" mnemonicParsing="false" onAction="#getStudentreport" prefHeight="38.0" prefWidth="41.0" style="-fx-background-color: transparent;">
@@ -109,7 +109,7 @@
                <children>
                   <ImageView fitHeight="47.0" fitWidth="89.0" layoutX="11.0" layoutY="17.0">
                      <image>
-                         <Image url="@../backBtn.png" />
+                         <Image url="@../../images/backBtn.png" />
                      </image>
                      <cursor>
                         <Cursor fx:constant="HAND" />

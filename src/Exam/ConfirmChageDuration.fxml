@@ -14,14 +14,14 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.paint.Color?>
 
-<SplitPane dividerPositions="0.5, 0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="429.0" prefWidth="689.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exam.ConfirmChageDurationBoundary">
+<SplitPane dividerPositions="0.5, 0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="429.0" prefWidth="689.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exam.ConfirmChageDurationBoundary">
   <items>
     <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="697.0" style="-fx-background-color: white;">
          <children>
             <Label layoutX="224.0" prefHeight="72.0" prefWidth="311.0" style="-fx-font-family: Dubai; -fx-font-size: 33; -fx-text-fill: purple;" text="Change Exam Duration" />
             <ImageView accessibleRole="BUTTON" fitHeight="45.0" fitWidth="49.0" layoutX="634.0" layoutY="14.0">
                <image>
-                   <Image url="@../logoutBtn.png" />
+                   <Image url="@../../images/logoutBtn.png" />
                </image>
                <cursor>
                   <Cursor fx:constant="HAND" />
@@ -29,7 +29,7 @@
             </ImageView>
             <ImageView fitHeight="77.0" fitWidth="109.0" layoutX="14.0" layoutY="-3.0">
                <image>
-                   <Image url="@../logo.png" />
+                   <Image url="@../../images/logo.png" />
                </image>
             </ImageView>
             <Button id="logOutBtn" fx:id="logOutBtn" layoutX="634.0" layoutY="13.0" mnemonicParsing="false" onAction="#logout" prefHeight="45.0" prefWidth="49.0" style="-fx-background-color: transparent; -fx-border-color: transparent;">
@@ -55,14 +55,14 @@
                      <effect>
                         <InnerShadow>
                            <color>
-                              <Color blue="0.8784313797950745" green="0.34117648005485535" red="0.572549045085907" />
+                              <Color red="0.572549045085907" green="0.34117648005485535" blue="0.8784313797950745" />
                            </color>
                         </InnerShadow>
                      </effect>
                      <graphic>
                         <ImageView fitHeight="23.0" fitWidth="22.0">
                            <image>
-                               <Image url="@../approveBtn.png" />
+                               <Image url="@../../images/approveBtn.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -74,7 +74,7 @@
                      <effect>
                         <InnerShadow>
                            <color>
-                              <Color blue="0.8784313797950745" green="0.34117648005485535" red="0.572549045085907" />
+                              <Color red="0.572549045085907" green="0.34117648005485535" blue="0.8784313797950745" />
                            </color>
                         </InnerShadow>
                      </effect>
@@ -86,14 +86,14 @@
                      <effect>
                         <InnerShadow>
                            <color>
-                              <Color blue="0.8784313797950745" green="0.34117648005485535" red="0.572549045085907" />
+                              <Color red="0.572549045085907" green="0.34117648005485535" blue="0.8784313797950745" />
                            </color>
                         </InnerShadow>
                      </effect>
                      <graphic>
                         <ImageView id="DenyChangeBtn" fx:id="DenyChangeBtn" fitHeight="24.0" fitWidth="22.0">
                            <image>
-                               <Image url="@../denyBtn.png" />
+                               <Image url="@../../images/denyBtn.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -112,7 +112,7 @@
                <children>
                   <ImageView accessibleRole="BUTTON" fitHeight="47.0" fitWidth="106.0" layoutX="14.0" layoutY="14.0">
                      <image>
-                         <Image url="@../backBtn.png" />
+                         <Image url="@../../images/backBtn.png" />
                      </image>
                      <cursor>
                         <Cursor fx:constant="HAND" />
@@ -120,7 +120,7 @@
                   </ImageView>
                   <ImageView fx:id="saveChangeBtn" accessibleRole="BUTTON" fitHeight="47.0" fitWidth="106.0" layoutX="580.0" layoutY="15.0">
                      <image>
-                         <Image url="@../saveBtn.png" />
+                         <Image url="@../../images/saveBtn.png" />
                      </image>
                      <cursor>
                         <Cursor fx:constant="HAND" />

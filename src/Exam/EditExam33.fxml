@@ -12,19 +12,19 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<SplitPane dividerPositions="0.16442953020134227, 0.5620805369127516" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="670.0" prefWidth="900.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exam.EditExam3Boundary">
+<SplitPane dividerPositions="0.16442953020134227, 0.5620805369127516" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="670.0" prefWidth="900.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exam.EditExam3Boundary">
   <items>
     <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="903.0">
          <children>
             <Label layoutX="323.0" layoutY="8.0" prefHeight="72.0" prefWidth="257.0" style="-fx-font-family: Dubai; -fx-font-size: 40; -fx-text-fill: purple;" text="Edit Exam" />
             <ImageView fitHeight="94.0" fitWidth="153.0" layoutX="-2.0" layoutY="-5.0">
                <image>
-                   <Image url="@../logo.png" />
+                   <Image url="@../../images/logo.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="60.0" fitWidth="65.0" layoutX="838.0" layoutY="14.0">
                <image>
-                   <Image url="@../logoutBtn.png" />
+                   <Image url="@../../images/logoutBtn.png" />
                </image>
             </ImageView>
             <Button fx:id="logOutBtn" layoutX="838.0" layoutY="14.0" mnemonicParsing="false" onAction="#logout" prefHeight="60.0" prefWidth="54.0" style="-fx-background-color: transparent; -fx-border-color: transparent;">
@@ -73,7 +73,7 @@
                <children>
                   <ImageView fitHeight="60.0" fitWidth="135.0" layoutX="757.0" layoutY="7.0">
                      <image>
-                         <Image url="@../nextBtn.png" />
+                         <Image url="@../../images/nextBtn.png" />
                      </image>
                      <cursor>
                         <Cursor fx:constant="HAND" />
@@ -85,7 +85,7 @@
                      </cursor></Button>
                   <ImageView fitHeight="60.0" fitWidth="135.0" layoutY="7.0">
                      <image>
-                         <Image url="@../backBtn.png" />
+                         <Image url="@../../images/backBtn.png" />
                      </image>
                      <cursor>
                         <Cursor fx:constant="HAND" />

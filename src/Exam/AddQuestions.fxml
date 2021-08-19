@@ -16,14 +16,14 @@
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.shape.Line?>
 
-<SplitPane dividerPositions="0.16442953020134227, 0.5620805369127516" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="670.0" prefWidth="900.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exam.AddQuestionsBoundary">
+<SplitPane dividerPositions="0.16442953020134227, 0.5620805369127516" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="670.0" prefWidth="900.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exam.AddQuestionsBoundary">
   <items>
     <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="903.0">
          <children>
             <Label layoutX="343.0" layoutY="9.0" prefHeight="72.0" prefWidth="231.0" style="-fx-font-family: Dubai; -fx-font-size: 40; -fx-text-fill: purple;" text="Add Question" />
             <ImageView fitHeight="57.0" fitWidth="72.0" layoutX="832.0" layoutY="15.0">
                <image>
-                   <Image url="@../logoutBtn.png" />
+                   <Image url="@../../images/logoutBtn.png" />
                </image>
                <cursor>
                   <Cursor fx:constant="HAND" />
@@ -31,7 +31,7 @@
             </ImageView>
             <ImageView fitHeight="98.0" fitWidth="130.0" layoutX="1.0" layoutY="-6.0">
                <image>
-                   <Image url="@../logo.png" />
+                   <Image url="@../../images/logo.png" />
                </image>
             </ImageView>
             <Button fx:id="logoutAddQBtn" layoutX="840.0" layoutY="13.0" mnemonicParsing="false" onAction="#logout" prefHeight="54.0" prefWidth="56.0" style="-fx-background-color: transparent;">
@@ -71,7 +71,7 @@
                <effect>
                   <InnerShadow height="50.0" radius="12.0" width="0.0">
                      <color>
-                        <Color blue="0.8784313797950745" green="0.34117648005485535" red="0.572549045085907" />
+                        <Color red="0.572549045085907" green="0.34117648005485535" blue="0.8784313797950745" />
                      </color>
                   </InnerShadow>
                </effect>
@@ -86,7 +86,7 @@
                <effect>
                   <InnerShadow height="50.0" radius="12.0" width="0.0">
                      <color>
-                        <Color blue="0.8784313797950745" green="0.34117648005485535" red="0.572549045085907" />
+                        <Color red="0.572549045085907" green="0.34117648005485535" blue="0.8784313797950745" />
                      </color>
                   </InnerShadow>
                </effect>
@@ -102,7 +102,7 @@
                <effect>
                   <InnerShadow height="50.0" radius="12.0" width="0.0">
                      <color>
-                        <Color blue="0.8784313797950745" green="0.34117648005485535" red="0.572549045085907" />
+                        <Color red="0.572549045085907" green="0.34117648005485535" blue="0.8784313797950745" />
                      </color>
                   </InnerShadow>
                </effect>
@@ -127,7 +127,7 @@
                <effect>
                   <InnerShadow>
                      <color>
-                        <Color blue="0.8784313797950745" green="0.34117648005485535" red="0.572549045085907" />
+                        <Color red="0.572549045085907" green="0.34117648005485535" blue="0.8784313797950745" />
                      </color>
                   </InnerShadow>
                </effect>
@@ -149,7 +149,7 @@
                <children>
                   <ImageView fitHeight="54.0" fitWidth="113.0" layoutX="7.0" layoutY="9.0">
                      <image>
-                         <Image url="@../backBtn.png" />
+                         <Image url="@../../images/backBtn.png" />
                      </image>
                      <cursor>
                         <Cursor fx:constant="HAND" />
@@ -157,7 +157,7 @@
                   </ImageView>
                   <ImageView fitHeight="54.0" fitWidth="113.0" layoutX="769.0" layoutY="10.0">
                      <image>
-                         <Image url="@../saveBtn.png" />
+                         <Image url="@../../images/saveBtn.png" />
                      </image>
                      <cursor>
                         <Cursor fx:constant="HAND" />

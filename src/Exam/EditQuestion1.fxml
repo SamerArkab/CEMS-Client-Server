@@ -15,19 +15,19 @@
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.shape.Line?>
 
-<SplitPane dividerPositions="0.5, 0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="430.0" prefWidth="704.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exam.EditQuestion1Boundary">
+<SplitPane dividerPositions="0.5, 0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="430.0" prefWidth="704.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exam.EditQuestion1Boundary">
   <items>
     <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="709.0" style="-fx-background-color: white;">
          <children>
             <Label layoutX="196.0" layoutY="-1.0" prefHeight="72.0" prefWidth="318.0" style="-fx-font-family: Dubai; -fx-font-size: 40; -fx-text-fill: purple;" text="Edit Question Bank" />
             <ImageView fitHeight="63.0" fitWidth="101.0" layoutX="14.0" layoutY="4.0">
                <image>
-                   <Image url="@../logo.png" />
+                   <Image url="@../../images/logo.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="45.0" fitWidth="49.0" layoutX="646.0" layoutY="13.0">
                <image>
-                   <Image url="@../logoutBtn.png" />
+                   <Image url="@../../images/logoutBtn.png" />
                </image>
                <cursor>
                   <Cursor fx:constant="HAND" />
@@ -60,7 +60,7 @@
                      <effect>
                         <InnerShadow height="50.0" radius="12.0" width="0.0">
                            <color>
-                              <Color blue="0.8784313797950745" green="0.34117648005485535" red="0.572549045085907" />
+                              <Color red="0.572549045085907" green="0.34117648005485535" blue="0.8784313797950745" />
                            </color>
                         </InnerShadow>
                      </effect>
@@ -71,7 +71,7 @@
                      <effect>
                         <InnerShadow height="50.0" radius="12.0" width="0.0">
                            <color>
-                              <Color blue="0.8784313797950745" green="0.34117648005485535" red="0.572549045085907" />
+                              <Color red="0.572549045085907" green="0.34117648005485535" blue="0.8784313797950745" />
                            </color>
                         </InnerShadow>
                      </effect>
@@ -85,14 +85,14 @@
                      <effect>
                         <InnerShadow>
                            <color>
-                              <Color blue="0.8784313797950745" green="0.34117648005485535" red="0.572549045085907" />
+                              <Color red="0.572549045085907" green="0.34117648005485535" blue="0.8784313797950745" />
                            </color>
                         </InnerShadow>
                      </effect>
                      <graphic>
                         <ImageView fitHeight="22.0" fitWidth="21.0">
                            <image>
-                               <Image url="@../delete%20icon.jpg" />
+                               <Image url="@../../images/delete%20icon.jpg" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -104,14 +104,14 @@
                      <effect>
                         <InnerShadow>
                            <color>
-                              <Color blue="0.8784313797950745" green="0.34117648005485535" red="0.572549045085907" />
+                              <Color red="0.572549045085907" green="0.34117648005485535" blue="0.8784313797950745" />
                            </color>
                         </InnerShadow>
                      </effect>
                      <graphic>
                         <ImageView fitHeight="22.0" fitWidth="21.0">
                            <image>
-                               <Image url="@../delete%20icon.jpg" />
+                               <Image url="@../../images/delete%20icon.jpg" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -128,7 +128,7 @@
                <children>
                   <ImageView fitHeight="52.0" fitWidth="95.0" layoutX="599.0" layoutY="11.0">
                      <image>
-                         <Image url="@../editBtn.png" />
+                         <Image url="@../../images/editBtn.png" />
                      </image>
                      <cursor>
                         <Cursor fx:constant="HAND" />
@@ -136,7 +136,7 @@
                   </ImageView>
                   <ImageView fitHeight="51.0" fitWidth="95.0" layoutX="14.0" layoutY="15.0">
                      <image>
-                         <Image url="@../backBtn.png" />
+                         <Image url="@../../images/backBtn.png" />
                      </image>
                      <cursor>
                         <Cursor fx:constant="HAND" />
