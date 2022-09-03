@@ -31,7 +31,7 @@ All necessary library files to run the project are included.
 
 #### Example run
 ![image](./example_run/CEMS1.png) <br>
-![image](./example_run/CEMS1.png) <br>
+![image](./example_run/CEMS2.png) <br>
 ![image](./example_run/CEMS3.png) <br>
 ![image](./example_run/CEMS4.png) 
 <br>
