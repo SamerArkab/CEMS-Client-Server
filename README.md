@@ -30,8 +30,8 @@ Principal can view statistics from the system's DB, whether it is for a specific
 All necessary library files to run the project are included.
 
 #### Example run
-![image](./images/example_run/CEMS1.png) <br>
-![image](./images/example_run/CEMS1.png) <br>
-![image](./images/example_run/CEMS3.png) <br>
-![image](./images/example_run/CEMS4.png) 
+![image](./example_run/CEMS1.png) <br>
+![image](./example_run/CEMS1.png) <br>
+![image](./example_run/CEMS3.png) <br>
+![image](./example_run/CEMS4.png) 
 <br>
